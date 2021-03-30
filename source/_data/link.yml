@@ -1,0 +1,53 @@
+# Data of links
+# Check https://butterfly.js.org/posts/dc584b87/#%E5%8F%8B%E6%83%85%E9%8F%88%E6%8E%A5 for detail
+
+# Example
+#- class_name: ClassName
+#  class_desc: ClassDescription
+#  link_list:
+#  - name: LinkName
+#    link: <url>
+#    avatar: <img>
+#    descr: LinkDescription
+
+# Friends
+- class_name: 友情链接
+  class_desc: 贴贴！都可以贴贴！（大声
+  link_list:
+  - name: PiCpo
+    link: http://picpo.top
+    avatar: https://avatars.githubusercontent.com/u/33993624
+    descr: 一只喜欢猫猫的 pwner
+  - name: _rqy
+    link: https://rqy.moe
+    avatar: https://avatars.githubusercontent.com/u/22741844
+    descr: 一只想要变可爱的清芷酱
+  - name: YDJSIR
+    link: https://ydjsir.com.cn
+    avatar: https://avatars.githubusercontent.com/u/55691893
+    descr: 南雍随笔
+  - name: iZeray
+    link: https://github.com/iZeray
+    avatar: https://avatars.githubusercontent.com/u/43527959
+    descr: 精通化学结构式的优雅画法
+  - name: Fallen_Breath
+    link: https://fallenbreath.me/
+    avatar: https://avatars.githubusercontent.com/u/28978806
+    descr: \狐狸煲/ \狐狸煲/
+  - name: LucunJi
+    link: https://lucunji.github.io/
+    avatar: https://lucunji.github.io/avatar.jpg
+    descr: \禄存姬/ \禄存姬/
+
+# Frames, themes and plugins
+- class_name: 框架、主题和插件
+  class_desc: 感谢这些优秀的软件使本站得以呈现
+  link_list:
+  - name: Hexo
+    link: https://hexo.io
+    avatar: https://avatars.githubusercontent.com/u/6375567
+    descr: 本站使用的框架
+  - name: Butterfly
+    link: https://butterfly.js.org
+    avatar: https://avatars.githubusercontent.com/u/16351105
+    descr: 本站使用的主题（图标为作者的 GitHub 头像）
