@@ -42,9 +42,8 @@ jobs:
         run: |
           git config --global user.name "Van-Nya"
           git config --global user.email "admin@ruavan.moe"
+          git config --global github.token ${{ secrets.ACCESS_TOKEN }}
 
       # Hexo Generate and Deploy
       - name: Hexo Generate and Deploy
-        env:
-          access_token: ${{ secrets.ACCESS_TOKEN }}
         run: hexo clean && hexo generate && hexo deploy
