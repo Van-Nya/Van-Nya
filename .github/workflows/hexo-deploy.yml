@@ -34,7 +34,8 @@ jobs:
       # Install Packages
       - name: Install Packages
         run: |
-          npm install -g
+          npm install -g hexo-cli
+          npm install
 
       # Hexo Generate and Deploy
       - name: Hexo Generate and Deploy
