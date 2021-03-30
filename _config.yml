@@ -104,7 +104,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:Van-Nya/Van-Nya.github.io.git
+  repo: https://${{ secrets.ACCESS_TOKEN }}@github.com/Van-Nya/Van-Nya.github.io
   branch: main
 
 # Search
