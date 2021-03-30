@@ -47,7 +47,7 @@ jobs:
           GITHUB_USER: Van-Nya
           GITHUB_REPO: github.com/${GITHUB_USER}/${GITHUB_USER}.github.io.git
         run: |
-          git config --global user.name "${GITHUB_USER}"
+          git config --global user.name ${GITHUB_USER}
           git config --global user.email "admin@ruavan.moe"
           git clone https://${GITHUB_REPO} ./.deploy
           cp -r ./.deploy/.git/ ./public/
