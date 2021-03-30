@@ -45,4 +45,6 @@ jobs:
 
       # Hexo Generate and Deploy
       - name: Hexo Generate and Deploy
+        env:
+          access_token: ${{ secrets.ACCESS_TOKEN }}
         run: hexo clean && hexo generate && hexo deploy
