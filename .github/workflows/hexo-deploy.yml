@@ -37,14 +37,20 @@ jobs:
           npm install -g hexo-cli
           npm install
 
-      # Configure Git
-      - name: Configure Git
-        run: |
-          git config --global user.name "Van-Nya"
-          git config --global user.email "admin@ruavan.moe"
-          git config --global github.user "Van-Nya"
-          git config --global github.token ${{ secrets.ACCESS_TOKEN }}
+      # Hexo Generate
+      - name: Hexo Generate
+        run: hexo clean && hexo generate
 
-      # Hexo Generate and Deploy
-      - name: Hexo Generate and Deploy
-        run: hexo clean && hexo generate && hexo deploy
+      # Deploy Pages
+      - name: Deploy Pages
+        env: 
+          GITHUB_USER: Van-Nya
+          GITHUB_REPO: github.com/${GITHUB_USER}/${GITHUB_USER}.github.io.git
+        run: |
+          git config --global user.name "${GITHUB_USER}"
+          git config --global user.email "admin@ruavan.moe"
+          git clone https://${GITHUB_REPO} ./.deploy
+          cp -r ./.deploy/.git/ ./public/
+          cd ./public/ && git add .
+          git commit -m "Site updated at $(date +'%Y-%m-%d %H:%M:%S')"
+          git push "https://${{ secrets.ACCESS_TOKEN }}@${GITHUB_REPO}" main:main
