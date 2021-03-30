@@ -40,8 +40,8 @@ jobs:
       # Configure Git
       - name: Configure Git
         run: |
-          git config user.name "Van-Nya"
-          git config user.email "admin@ruavan.moe"
+          git config --global user.name "Van-Nya"
+          git config --global user.email "admin@ruavan.moe"
 
       # Hexo Generate and Deploy
       - name: Hexo Generate and Deploy
