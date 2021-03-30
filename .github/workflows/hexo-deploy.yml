@@ -40,7 +40,7 @@ jobs:
       # Configure Git
       - name: Configure Git
         run: |
-          git config --global user.name "Van_Nya"
+          git config --global user.name "Van-Nya"
           git config --global user.email "admin@ruavan.moe"
           git config --global github.user "Van-Nya"
           git config --global github.token ${{ secrets.ACCESS_TOKEN }}
