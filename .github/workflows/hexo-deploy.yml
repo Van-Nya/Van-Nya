@@ -33,7 +33,8 @@ jobs:
 
       # Install Packages
       - name: Install Packages
-        run: npm install
+        run: |
+          npm install -g
 
       # Hexo Generate and Deploy
       - name: Hexo Generate and Deploy
