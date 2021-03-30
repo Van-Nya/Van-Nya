@@ -304,8 +304,8 @@ livere:
 # https://github.com/gitalk/gitalk
 gitalk:
   client_id: f9733488a2e8685ca3ee
-  client_secret: 5cefdfce5bbcaffb98dbf6c93e0a024847fce6f0
-  repo: CommentStorge
+  client_secret: fea44ba1e3fe1935275ee637746443b45588838b
+  repo: Van-Nya.github.io
   owner: Van-Nya
   admin: Van-Nya
   language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
