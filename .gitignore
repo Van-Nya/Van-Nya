@@ -1,0 +1,19 @@
+# Windows:
+*.ini
+
+# Logs
+*.log
+
+# IDE
+/.idea/
+/.vscode/
+
+# Node.js
+/node_modules/
+/package-lock.json
+/db.json
+
+# Hexo
+/themes/
+/public/
+/.deploy*/
