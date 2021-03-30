@@ -1,0 +1,40 @@
+# My deployer
+name: hexo-deploy
+on: [push]
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  deploy-blog:
+    name: Hexo build and deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout Codes
+      - name: Checkout Codes
+        uses: actions/checkout@v2
+
+      # Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+
+      # Setup Cache Directory
+      - name: Setup Cache Directory
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-${{ env.cache-name }}-
+            ${{ runner.os }}-node-
+            ${{ runner.os }}-
+
+      # Install Packages
+      - name: Install Packages
+        run: npm install
+
+      # Hexo Generate and Deploy
+      - name: Hexo Generate and Deploy
+        run: hexo clean && hexo g -d
