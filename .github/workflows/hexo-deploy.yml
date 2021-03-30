@@ -37,4 +37,4 @@ jobs:
 
       # Hexo Generate and Deploy
       - name: Hexo Generate and Deploy
-        run: hexo clean && hexo g -d
+        run: hexo clean && hexo generate && hexo deploy
