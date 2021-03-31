@@ -98,7 +98,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: /img/background.png
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -491,27 +491,27 @@ yandex_site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
- theme_color:
-   enable: true
-   main: "#49B1F5"
-   paginator: "#49B1F5"
-   button_hover: "#FF7242"
-   text_selection: "#49B1F5"
-   link_color: "#99a9bf"
-   meta_color: "#858585"
-   hr_color: "#A4D8FA"
-   code_foreground: "#F47466"
-   code_background: "rgba(27, 31, 35, .05)"
-   toc_color: "#49B1F5"
-   blockquote_padding_color: "#49b1f5"
-   blockquote_background_color: "#49b1f5"
+theme_color:
+  enable: true
+  main: "#858993"
+  paginator: "#63a8e9"
+  button_hover: "#63a8e9"
+  text_selection: "#63a8e9"
+  link_color: "#63a8e9"
+  meta_color: "#858585"
+  hr_color: "#368fe2"
+  code_foreground: "#e98463"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#63a8e9"
+  blockquote_padding_color: "#a3d8f9"
+  blockquote_background_color: "#a3d8f9"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height: 400px
+index_top_img_height: # 380px
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -522,10 +522,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: "#f1f2f3"
 
 # Footer Background
-footer_bg: true
+footer_bg: "#aaccff"
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -543,8 +543,8 @@ canvas_ribbon:
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
-  mobile: false
+  click_to_change: true
+  mobile: true
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
@@ -733,7 +733,7 @@ newest_comments:
 # --------------------------------------
 
 # Change font size
-change_font_size: false
+change_font_size: true
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
