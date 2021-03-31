@@ -21,7 +21,7 @@ jobs:
         env:
           cache-name: auto-closer
         with:
-          path: ~/.npm
+          path: ~/.auto-closer
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
