@@ -1,6 +1,6 @@
 # Van喵在这里
 
-[English](README.md) | **中文**
+[English](README.md "README.md") | **中文**
 
 这里是 **Van喵**，未满*24岁，事学生* ~~（确信）~~，曾在 [33届CChO决赛](https://zh.wikipedia.org/wiki/中国化学奥林匹克竞赛 "中国化学奥林匹克竞赛") 获得二等奖🥈，但由于 [强基计划](https://zh.wikipedia.org/wiki/强基计划 "羟 基 计 划") 而转为学习**数学**，并且计划将来学习**信息科学**。
 
