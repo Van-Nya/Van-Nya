@@ -1,10 +1,11 @@
 # Main menu navigation (導航目錄)
 # --------------------------------------
 
-# format: name: link || icon
-# sub-menu
+# # format:
+# name: link || icon
+# # sub-menu
 # name || icon:
-#   name || link || icon
+#   name: link || icon
 
 menu:
   # 主页: / || fas fa-home
