@@ -7,13 +7,13 @@
 #   name || link || icon
 
 menu:
-  主页: / || fas fa-home
+  # 主页: / || fas fa-home
   目录 || far fa-compass:
   - 归档 || /archives/ || fas fa-archive
   - 分类 || /categories/ || fas fa-folder-open
   - 标签 || /tags/ || fas fa-tags
-  文档 || fas fa-list:
-  - 数学习题 || /math/ || fas fa-square-root-alt
+  # 文档 || fas fa-list:
+  # - 数学习题 || /math/ || fas fa-square-root-alt
   链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
   # List || fas fa-list:
