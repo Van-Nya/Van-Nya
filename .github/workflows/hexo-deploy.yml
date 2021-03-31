@@ -1,6 +1,6 @@
 # My deployer
 name: hexo-deploy
-on: [push]
+on: push
 env:
   TZ: Asia/Shanghai
 
