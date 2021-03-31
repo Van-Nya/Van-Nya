@@ -22,13 +22,12 @@ jobs:
       - name: Setup Cache Directory
         uses: actions/cache@v2
         env:
-          cache-name: cache-node-modules
+          cache-name: node-modules
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-${{ env.cache-name }}-
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-${{ env.cache-name }}-
             ${{ runner.os }}-
 
       # Install Packages
