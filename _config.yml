@@ -102,8 +102,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
-plugins:
-  - hexo-algoliasearch
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -147,20 +145,3 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
-
-# Algolia
-algolia:
-  appId: ""
-  apiKey: ""
-  adminApiKey: ""
-  chunkSize: 5000
-  indexName: "my-hexo-blog"
-  fields:
-    # - content:strip:truncate,0,500
-    # - excerpt:strip
-    # - gallery
-    # - permalink
-    # - photos
-    # - slug
-    # - tags
-    # - title
