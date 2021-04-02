@@ -31,7 +31,7 @@ permalink:
     ```YAML
     - name: Van_Nya
       link: https://van.ここ.com
-      avatar: https://avatars.githubusercontent.com/u/49584196
+      avatar: https://ruavan.codes/img/avatar.png
       descr: 一只想贴贴的小猫（确信
     ```
 
