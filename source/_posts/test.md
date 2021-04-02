@@ -6,15 +6,15 @@ tags:
 categories: Test  
 keywords: test  
 description: 这不是用于测试网站渲染的页面（确信  
-top_img:  
+top_img: /img/default/top-img.jpg  
 comments: true  
-cover:  
+cover: /img/default/cover.jpg  
 copyright_author: Van-Nya  
 copyright_author_href: 'https://github.com/Van-Nya'  
 mathjax: true  
 katex: true  
 aplayer: true  
-permalink: test/index.html  
+permalink: test.html  
 ---
 
 这不是用于测试网站渲染的页面（确信
@@ -199,7 +199,7 @@ van@ここ.com
 
 [Markdown 指导][md]
 
-![野兽先辈的 ASCII 字符画](index/YJSNPI_Ascii_Art.svg)
+![野兽先辈的 ASCII 字符画](test/YJSNPI_Ascii_Art.svg)
 
 [md]: https://www.markdownguide.org "Markdown Guide"
 ```
@@ -211,7 +211,7 @@ van@ここ.com
 
 [Markdown 指导][md]
 
-![野兽先辈的 ASCII 字符画](index/YJSNPI_Ascii_Art.svg)
+![野兽先辈的 ASCII 字符画](test/YJSNPI_Ascii_Art.svg)
 
 [md]: https://www.markdownguide.org "Markdown Guide"
 
