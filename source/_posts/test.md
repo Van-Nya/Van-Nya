@@ -192,8 +192,8 @@ ________
 ## 这不是链接
 
 ```Markdown
-van.ここ.com  
-van@ここ.com
+https://ruavan.one  
+mailto:admin@ruavan.moe
 
 [点击此↑处↓查看前面俳句的出处](https://www.zhihu.com/question/48013554/answer/163853331 "ん?")
 
@@ -204,8 +204,8 @@ van@ここ.com
 [md]: https://www.markdownguide.org "Markdown Guide"
 ```
 
-van.ここ.com  
-van@ここ.com
+https://ruavan.one  
+mailto:admin@ruavan.moe
 
 [点击此↑处↓查看前面俳句的出处](https://www.zhihu.com/question/48013554/answer/163853331 "ん?")
 

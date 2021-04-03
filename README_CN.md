@@ -6,6 +6,6 @@
 
 在编程方面还是初学者，目前初步掌握 **Python**，正在学习 **C语言**（<u>学业需求</u>）和 **Java**（<u>Minecraft 相关的开发需求</u>）。
 
-点击 [**此处**](https://blog.ruavan.moe "Van喵的小窝") 可访问我的博客 ~~（施工中）~~。
+点击 [**此处**](https://ruavan.one "Van喵的小窝") 可访问我的博客 ~~（施工中）~~。
 
 [![Van-Nya's GitHub stats](https://github-readme-stats-git-master.van-nya.vercel.app/api?username=Van-Nya&show_icons=true&include_all_commits=true&locale=cn)](https://github.com/anuraghazra/github-readme-stats "GitHub Readme 统计表")

@@ -26,13 +26,13 @@ permalink:
       descr: <描述>
     ```
 
-1. 在自己的网站将 [**Van喵的小窝**](https://van.ここ.com) 添加为友情链接（可选
+1. 在自己的网站将 [**Van喵的小窝**](https://ruavan.one "Nya?") 添加为友情链接（可选
 
     ```YAML
     - name: Van_Nya
-      link: https://van.ここ.com
-      avatar: https://ruavan.codes/img/avatar.png
+      link: https://ruavan.one
+      avatar: https://ruavan.one/img/avatar.png
       descr: 一只想贴贴的小猫（确信
     ```
 
-2. 等待 [**Van喵**](https://github.com/Van-Nya) 想起要添加链接的事（逃
+2. 等待 [**Van喵**](https://github.com/Van-Nya "Nya!") 想起要添加链接的事（逃
