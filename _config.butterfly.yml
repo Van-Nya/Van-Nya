@@ -821,7 +821,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -873,9 +873,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <script src="/js/loader.js"></script>
   bottom:
-    # - <script src="xxxx"></script>
+    # - <script src="/js/loader.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
