@@ -219,7 +219,7 @@ mailto:admin@ruavan.moe
 
 ## 这不是 LaTeX
 
-```Markdown
+```LaTeX
 众所周知，$985 = 1 + 14 \times 5 \times 14 - (11 + 4 - 5 - 14)$  
 而 $211 = 11 - 4 + 51 \times 4$  
 因此 $985211 \Leftrightarrow 114514$
@@ -227,14 +227,14 @@ mailto:admin@ruavan.moe
 $$
 \begin{aligned}
 \bold{B}_{0}(t)|_{\boldsymbol{p}_{0} }
-&= \boldsymbol{p}_0 \\
+& = \boldsymbol{p}_0 \\
 \bold{B}_{1}(t)|_{\boldsymbol{p}_{0}, \boldsymbol{p}_{1} }
-&= (1 - t) \boldsymbol{p}_{0} + t \boldsymbol{p}_{1} \\
+& = (1 - t) \boldsymbol{p}_{0} + t \boldsymbol{p}_{1} \\
 \bold{B}_{2}(t)|_{\boldsymbol{p}_{0}, \boldsymbol{p}_{1}, \boldsymbol{p}_{2} }
-&= (1 - t)^{2} \boldsymbol{p}_{0} + 2t (1 - t) \boldsymbol{p}_{1} + t^{2} \boldsymbol{p}_{2}\\
+& = (1 - t)^{2} \boldsymbol{p}_{0} + 2t (1 - t) \boldsymbol{p}_{1} + t^{2} \boldsymbol{p}_{2}\\
 & \vdots \\
 \bold{B}_{n}(t)|_{\boldsymbol{p}_{0}, \boldsymbol{p}_{1}, \cdots, \boldsymbol{p}_{n} }
-&= \sum_{i = 0}^{n} { {i} \choose {n} } t^{i} (1 - t)^{n - i} \boldsymbol{p}_{i}
+& = \sum_{i = 0}^{n} { {i} \choose {n} } t^{i} (1 - t)^{n - i} \boldsymbol{p}_{i}
 \end{aligned}
 $$
 ```
@@ -246,14 +246,14 @@ $$
 $$
 \begin{aligned}
 \bold{B}_{0}(t)|_{\boldsymbol{p}_{0} }
-&= \boldsymbol{p}_0 \\
+& = \boldsymbol{p}_0 \\
 \bold{B}_{1}(t)|_{\boldsymbol{p}_{0}, \boldsymbol{p}_{1} }
-&= (1 - t) \boldsymbol{p}_{0} + t \boldsymbol{p}_{1} \\
+& = (1 - t) \boldsymbol{p}_{0} + t \boldsymbol{p}_{1} \\
 \bold{B}_{2}(t)|_{\boldsymbol{p}_{0}, \boldsymbol{p}_{1}, \boldsymbol{p}_{2} }
-&= (1 - t)^{2} \boldsymbol{p}_{0} + 2t (1 - t) \boldsymbol{p}_{1} + t^{2} \boldsymbol{p}_{2}\\
+& = (1 - t)^{2} \boldsymbol{p}_{0} + 2t (1 - t) \boldsymbol{p}_{1} + t^{2} \boldsymbol{p}_{2}\\
 & \vdots \\
 \bold{B}_{n}(t)|_{\boldsymbol{p}_{0}, \boldsymbol{p}_{1}, \cdots, \boldsymbol{p}_{n} }
-&= \sum_{i = 0}^{n} { {i} \choose {n} } t^{i} (1 - t)^{n - i} \boldsymbol{p}_{i}
+& = \sum_{i = 0}^{n} { {i} \choose {n} } t^{i} (1 - t)^{n - i} \boldsymbol{p}_{i}
 \end{aligned}
 $$
 
