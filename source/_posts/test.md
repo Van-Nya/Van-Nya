@@ -219,7 +219,7 @@ mailto:admin@ruavan.moe
 
 ## 这不是 LaTeX
 
-```LaTeX
+```Markdown
 众所周知，$985 = 1 + 14 \times 5 \times 14 - (11 + 4 - 5 - 14)$  
 而 $211 = 11 - 4 + 51 \times 4$  
 因此 $985211 \Leftrightarrow 114514$
