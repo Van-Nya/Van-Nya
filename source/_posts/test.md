@@ -1,20 +1,20 @@
 ---
-title: 这不是测试页面  
-date: 2021-02-22 11:45:14  
-tags:  
-- Test  
-categories: Test  
-keywords: test  
-description: 这不是用于测试网站渲染的页面（确信  
-top_img: /img/default/top-img.jpg  
-comments: true  
-cover: /img/default/cover.jpg  
-copyright_author: Van-Nya  
-copyright_author_href: 'https://github.com/Van-Nya'  
-mathjax: true  
-katex: true  
-aplayer: true  
-permalink: test.html  
+title: 这不是测试页面
+date: 2021-02-22 11:45:14
+tags:
+- Test
+categories: Test
+keywords: test
+description: 这不是用于测试网站渲染的页面（确信
+top_img: /img/default/top-img.jpg
+comments: true
+cover: /img/default/cover.jpg
+copyright_author: Van-Nya
+copyright_author_href: 'https://github.com/Van-Nya'
+mathjax: true
+katex: true
+aplayer: true
+permalink: test.html
 ---
 
 这不是用于测试网站渲染的页面（确信
