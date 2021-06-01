@@ -35,4 +35,4 @@ permalink:
       descr: 一只想贴贴的小猫（确信
     ```
 
-2. 等待 [**Van喵**](https://github.com/Van-Nya "Nya!") 想起要添加链接的事（逃
+1. 等待 [**Van喵**](https://github.com/Van-Nya "Nya!") 想起要添加链接的事（逃
