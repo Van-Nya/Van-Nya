@@ -46,7 +46,7 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/Van-Nya/Van-Nya || GitHub Src Repo
-  fas fa-envelope: mailto:admin@ruavan.moe || Email
+  fas fa-envelope: mailto:nya@ruavan.one || Email
   fas fa-rss: atom.xml || RSS
 
 # search (搜索)
