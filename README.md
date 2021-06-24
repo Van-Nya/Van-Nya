@@ -6,6 +6,6 @@ Hi! Here is **Van Nya**, a student younger than 24, has gotten 2nd pride🥈 in 
 
 Still is a beginner in programming, has the basic skill of **Python**, is studying **C** (<u>for schoolwork</u>) and **Java** (<u>for Minecraft-related development</u>) for now.
 
-Follow [**this link**](http://ruavan.one "Van_Nya's Nest") to visit my blog ~~(under construction)~~.
+Follow [**this link**](http://ruavan.one "Van_Nya's Cauldron") to visit my blog ~~(under construction)~~.
 
 [![Van-Nya's GitHub stats](https://github-readme-stats-git-master.van-nya.vercel.app/api?username=Van-Nya&show_icons=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats "GitHub Readme Stats")
