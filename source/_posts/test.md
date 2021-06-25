@@ -6,9 +6,9 @@ tags:
 categories: Test
 keywords: test
 description: 这不是用于测试网站渲染的页面（确信
-top_img: /img/default/top-img.jpg
+top_img: https://van-nya-pic-bed.oss-cn-beijing.aliyuncs.com/img/default/top-img.jpg
 comments: true
-cover: /img/default/cover.jpg
+cover: https://van-nya-pic-bed.oss-cn-beijing.aliyuncs.com/img/default/cover.jpg
 copyright_author: Van-Nya
 copyright_author_href: 'https://github.com/Van-Nya'
 mathjax: true
